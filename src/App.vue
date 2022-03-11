@@ -8,14 +8,18 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-app-bar app>
+    <v-app-bar app class="red">
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
-      <v-toolbar-title>Dirt Bikes</v-toolbar-title>
+      <v-toolbar-title
+        ><v-list-item to="/" class="black--text"
+          >Dirt Bikes</v-list-item
+        ></v-toolbar-title
+      >
     </v-app-bar>
 
     <v-main>
-      <router-view />
+      <router-view class="ma-3" />
     </v-main>
   </v-app>
 </template>
