@@ -4,7 +4,8 @@
       <v-card-title>Accessories and Equipment</v-card-title>
       <v-card-text>
         You can purchase spare parts from our
-        <a href="/dealers">certified dealers</a> or order directly from us!
+        <router-link to="/dealers">certified dealers</router-link> or order
+        directly from us!
       </v-card-text>
       <v-card-actions>
         <v-btn to="/dealers" dark>Check out our dealers</v-btn>

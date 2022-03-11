@@ -7,7 +7,7 @@
         scattered all over the US and Europe, you should never be more than 50
         miles from one. If you think you're more than 50 miles from an
         authorized dealer, you can try
-        <a href="/accessories">ordering yourself</a>.
+        <router-link to="/accessories">ordering yourself</router-link>.
       </v-card-text>
     </v-card>
     <GoogleMap />
