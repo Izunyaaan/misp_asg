@@ -6,7 +6,13 @@
       you.
     </h2>
     <v-card outlined tile elevation="5">
-      <v-form ref="form" v-model="valid" lazy-validation class="pa-8">
+      <v-form
+        ref="form"
+        v-model="valid"
+        lazy-validation
+        class="pa-8"
+        @submit="validate"
+      >
         <v-text-field
           v-model="name"
           :rules="nameRules"
